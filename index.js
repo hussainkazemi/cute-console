@@ -2,22 +2,41 @@ const { CreateMessage } = require('./utils/MessageGeneraor');
 const { GetRandomChar, GetStandardChar } = require('./utils/BorderUtils');
 
 
-let fconsole = function (message, border, alphabetStatus) {
+let Nconsole = function (message, border) {
     let borderChar, upperStatus;
     if(border)
       borderChar = border;
     else
        borderChar = GetRandomChar();
 
-    if (alphabetStatus)
-        upperStatus = alphabetStatus;
-    else
-        upperStatus = 0;
+    let output = CreateMessage(message, borderChar,0);
+    console.log(output);
+}
 
-    let output = CreateMessage(message, borderChar, upperStatus);
+let Uconsole = function (message, border){
+    let borderChar, upperStatus;
+    if(border)
+        borderChar = border;
+    else
+        borderChar = GetRandomChar();
+
+    let output = CreateMessage(message, borderChar,2);
+    console.log(output);
+}
+
+let Lconsole = function (message, border){
+    let borderChar, upperStatus;
+    if(border)
+        borderChar = border;
+    else
+        borderChar = GetRandomChar();
+
+    let output = CreateMessage(message, borderChar,1);
     console.log(output);
 }
 
 module.exports = {
-    fconsole
+    Nconsole,
+    Uconsole,
+    Lconsole
 }
