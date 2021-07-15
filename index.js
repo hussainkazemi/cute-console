@@ -1,6 +1,18 @@
 const { CreateMessage } = require('./utils/MessageGeneraor');
-const { GetRandomChar } = require('./utils/BorderUtils');
-let upperStatus = 2;
-let borderChar = GetRandomChar();
-let output = CreateMessage("Hussain kazemi", borderChar, upperStatus);
-console.log(output);
+const { GetRandomChar, GetStandardChar } = require('./utils/BorderUtils');
+
+
+let fconsole = function (message, border, alphabetStatus) {
+    let borderChar, upperStatus;
+    if(border)
+      borderChar = border;
+    else
+       borderChar = GetRandomChar();
+    if (alphabetStatus)
+        upperStatus = GetStandardChar(alphabetStatus);
+    else
+        upperStatus = 0;
+
+    let output = CreateMessage(message, borderChar, upperStatus);
+    console.log(output);
+}
