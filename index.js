@@ -17,3 +17,7 @@ let fconsole = function (message, border, alphabetStatus) {
     let output = CreateMessage(message, borderChar, upperStatus);
     console.log(output);
 }
+
+module.exports = {
+    fconsole
+}
