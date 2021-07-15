@@ -1,5 +1,5 @@
 {
-  "name": "fconsole",
+  "name": "cute-console",
   "version": "1.0.0",
   "description": "a funny console for nodejs application",
   "main": "index.js",

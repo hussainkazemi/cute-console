@@ -1,3 +1,3 @@
-# fecho
-fecho is a funny print for python
-you can use it for your python application
+# cute console
+cute console is a funny print for nodejs 
+you can use it for your nodejs application
