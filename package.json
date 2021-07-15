@@ -12,7 +12,9 @@
   },
   "keywords": [
     "nodejs",
-    "console"
+    "console",
+    "print",
+    "log"
   ],
   "author": "hussain kazemi kazemih7287@gmail.com",
   "license": "ISC",

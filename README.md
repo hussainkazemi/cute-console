@@ -20,6 +20,3 @@ Nconsole("Your Message", '#'); //print your message in # border char
 Uconsole("Your Message", '#'); //print your message with Upper char
 Lconsole("Your Message", '#'); //print your message with Lower char
 ```
-
-
-[]: https://photos.app.goo.gl/1H4NUuZNWEg2Ska27
