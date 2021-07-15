@@ -28,11 +28,11 @@ let CreateMessage = function(message, char, upperState){
 
         switch(upperState){
             case 1:
-                border = border.toUpperCase();
-            break;
-
-            case 2: 
                 border = border.toLowerCase();
+                break;
+
+            case 2:
+                border = border.toUpperCase();
             break;
         }
 

@@ -8,8 +8,9 @@ let fconsole = function (message, border, alphabetStatus) {
       borderChar = border;
     else
        borderChar = GetRandomChar();
+
     if (alphabetStatus)
-        upperStatus = GetStandardChar(alphabetStatus);
+        upperStatus = alphabetStatus;
     else
         upperStatus = 0;
 
