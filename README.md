@@ -32,7 +32,7 @@ The table below shows the use of each function
 ```javascript
 const { Nconsole, Lconsole, Uconsole } = require('cute-console');`
 
-Nconsole("Your Message",#);
-Uconsole("Your Message",#);
-Lconsole("Your Message",#);
+Nconsole("Your Message",'#');
+Uconsole("Your Message",'#');
+Lconsole("Your Message",'#');
 ```
