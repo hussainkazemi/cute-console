@@ -1,8 +1,6 @@
 # cute console
-cute console is a funny print for nodejs 
-you can use it for your nodejs application
-
-![cute console](https://photos.app.goo.gl/1H4NUuZNWEg2Ska27)
+-‍‍‍`cute console` is a package for print your message in nodejs application
+-Use this package if you want to print a message different from other messages 
 
 **Installation**
 
@@ -12,11 +10,19 @@ you can use it for your nodejs application
 
 ###### in nodejs:
 
-`const { Nconsole, Lconsole, Uconsole } = require('cute-console');`
+```javascript
+const { Nconsole, Lconsole, Uconsole } = require('cute-console');`
 
+Nconsole("Your Message"); 
+Nconsole("Your Message", '#');
+Uconsole("Your Message", '#');
+Lconsole("Your Message", '#');
 ```
-Nconsole("Your Message"); //print your message in random border char
-Nconsole("Your Message", '#'); //print your message in # border char
-Uconsole("Your Message", '#'); //print your message with Upper char
-Lconsole("Your Message", '#'); //print your message with Lower char
-```
+##### note:
+The table below shows the use of each function
+
+| function |    uset  |
+|  :-----: |  :----:  |
+|Nconsole  |print your message original  |
+|Uconsole. |print your message Upper case|
+|Lconsole. |print hour message Lower case| 
