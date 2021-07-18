@@ -1,6 +1,6 @@
 {
   "name": "cute-console",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a funny console for nodejs application",
   "main": "index.js",
   "scripts": {
