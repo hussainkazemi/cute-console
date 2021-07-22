@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hussainkazemi/fconsole.git"
+    "url": "git+https://github.com/hussainkazemi/cute-console.git"
   },
   "keywords": [
     "nodejs",
@@ -19,7 +19,7 @@
   "author": "hussain kazemi kazemih7287@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hussainkazemi/fconsole/issues"
+    "url": "https://github.com/hussainkazemi/cute-console/issues"
   },
-  "homepage": "https://github.com/hussainkazemi/fconsole#readme"
+  "homepage": "https://github.com/hussainkazemi/cute-console#readme"
 }
